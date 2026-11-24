@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Kraft &amp; Co | Panel principal
+  </title>
+  <link href="css/estilos.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="app-layout">
+   <!-- Menú lateral: enlaces para cambiar de sección -->
+   <aside class="sidebar">
+    <div class="brand">
+     <h1>
+      Kraft &amp; Co
+     </h1>
+     <p>
+      Sistema de gesti&oacute;n de papeler&iacute;a
+     </p>
+    </div>
+    <div class="nav-title">
+     Men&uacute; principal
+    </div>
+    <nav class="nav-list">
+     <a class="active" href="index.html">
+      <span class="nav-icon">
+       ⌂
+      </span>
+      <span>
+       Inicio
+      </span>
+     </a>
+     <a href="modulos/usuarios/index.html">
+      <span class="nav-icon">
+       ♙
+      </span>
+      <span>
+       Usuarios
+      </span>
+     </a>
+     <a href="modulos/productos/index.html">
+      <span class="nav-icon">
+       ▣
+      </span>
+      <span>
+       Productos
+      </span>
+     </a>
+     <a href="modulos/categorias/index.html">
+      <span class="nav-icon">
+       ▤
+      </span>
+      <span>
+       Categor&iacute;as
+      </span>
+     </a>
+     <a href="modulos/inventario/index.html">
+      <span class="nav-icon">
+       ▥
+      </span>
+      <span>
+       Inventario
+      </span>
+     </a>
+     <a href="./modulos/facturacion/index.html">
+      <span class="nav-icon">
+       ▤
+      </span>
+      <span>
+       Facturaci&oacute;n
+      </span>
+     </a>
+     <a href="modulos/solicitudes/index.html">
+      <span class="nav-icon">
+       ▧
+      </span>
+      <span>
+       Solicitudes
+      </span>
+     </a>
+     <a href="modulos/estadisticas/index.html">
+      <span class="nav-icon">
+       ▨
+      </span>
+      <span>
+       Estad&iacute;sticas
+      </span>
+     </a>
+     <a href="modulos/historial/index.html">
+      <span class="nav-icon">
+       ◷
+      </span>
+      <span>
+       Historial
+      </span>
+     </a>
+     <a href="modulos/configuracion/index.html">
+      <span class="nav-icon">
+       ⚙
+      </span>
+      <span>
+       Configuraci&oacute;n
+      </span>
+     </a>
+    </nav>
+    <div class="sidebar-foot">
+     Panel administrativo
+     <br/>
+     Versi&oacute;n de proyecto
+    </div>
+   </aside>
+   <div class="main-area">
+    <!-- Encabezado: muestra el nombre de la sección -->
+    <header class="topbar">
+     <span class="crumb">
+      Kraft &amp; Co / Inicio
+     </span>
+     <span class="user">
+      Administrador
+     </span>
+    </header>
+    <!-- Contenido principal de esta página -->
+    <main class="page-content">
+     <section class="intro">
+      <h2>
+       Resumen general
+      </h2>
+      <p>
+       Consulta el estado del negocio, la actividad de los usuarios y las operaciones recientes.
+      </p>
+     </section>
+     <section aria-label="Indicadores principales" class="kpi-grid">
+      <article class="kpi">
+       <div class="kpi-label">
+        Ventas registradas
+       </div>
+       <div class="kpi-value">
+        $250.000
+       </div>
+       <div class="kpi-note">
+        Valor de ejemplo
+       </div>
+      </article>
+      <article class="kpi">
+       <div class="kpi-label">
+        Productos registrados
+       </div>
+       <div class="kpi-value">
+        35
+       </div>
+       <div class="kpi-note">
+        En el cat&aacute;logo
+       </div>
+      </article>
+      <article class="kpi">
+       <div class="kpi-label">
+        Usuarios activos
+       </div>
+       <div class="kpi-value">
+        8
+       </div>
+       <div class="kpi-note">
+        Cuentas habilitadas
+       </div>
+      </article>
+      <article class="kpi">
+       <div class="kpi-label">
+        Solicitudes pendientes
+       </div>
+       <div class="kpi-value">
+        6
+       </div>
+       <div class="kpi-note">
+        Por gestionar
+       </div>
+      </article>
+     </section>
+     <div class="dashboard-grid">
+      <section class="bloque">
+       <h2>
+        Actividad de ventas
+       </h2>
+       <p class="descripcion">
+        Resumen semanal de ventas (datos ilustrativos).
+       </p>
+       <div aria-label="Gr&aacute;fica de barras de ventas de lunes a domingo" class="chart-wrap" role="img">
+        <div class="chart-column">
+         <span class="chart-value">
+          $80k
+         </span>
+         <div class="chart-bar" style="height:40%">
+         </div>
+         <span class="chart-day">
+          Lun
+         </span>
+        </div>
+        <div class="chart-column">
+         <span class="chart-value">
+          $120k
+         </span>
+         <div class="chart-bar" style="height:60%">
+         </div>
+         <span class="chart-day">
+          Mar
+         </span>
+        </div>
+        <div class="chart-column">
+         <span class="chart-value">
+          $95k
+         </span>
+         <div class="chart-bar" style="height:48%">
+         </div>
+         <span class="chart-day">
+          Mi&eacute;
+         </span>
+        </div>
+        <div class="chart-column">
+         <span class="chart-value">
+          $160k
+         </span>
+         <div class="chart-bar" style="height:80%">
+         </div>
+         <span class="chart-day">
+          Jue
+         </span>
+        </div>
+        <div class="chart-column">
+         <span class="chart-value">
+          $130k
+         </span>
+         <div class="chart-bar" style="height:65%">
+         </div>
+         <span class="chart-day">
+          Vie
+         </span>
+        </div>
+        <div class="chart-column">
+         <span class="chart-value">
+          $190k
+         </span>
+         <div class="chart-bar" style="height:95%">
+         </div>
+         <span class="chart-day">
+          S&aacute;b
+         </span>
+        </div>
+        <div class="chart-column">
+         <span class="chart-value">
+          $100k
+         </span>
+         <div class="chart-bar" style="height:50%">
+         </div>
+         <span class="chart-day">
+          Dom
+         </span>
+        </div>
+       </div>
+       <p class="chart-legend">
+        Cada barra representa el total vendido durante ese d&iacute;a.
+       </p>
+      </section>
+      <section class="bloque">
+       <h2>
+        Usuarios activos
+       </h2>
+       <p class="descripcion">
+        Cuentas habilitadas en el sistema.
+       </p>
+       <div class="panel-list">
+        <div class="panel-row">
+         <div class="person">
+          <div class="avatar">
+           AM
+          </div>
+          <div>
+           <div class="person-name">
+            Ana Mart&iacute;nez
+           </div>
+           <div class="person-role">
+            Administradora
+           </div>
+          </div>
+         </div>
+         <span class="status">
+          Activo
+         </span>
+        </div>
+        <div class="panel-row">
+         <div class="person">
+          <div class="avatar">
+           JL
+          </div>
+          <div>
+           <div class="person-name">
+            Juan L&oacute;pez
+           </div>
+           <div class="person-role">
+            Recepcionista
+           </div>
+          </div>
+         </div>
+         <span class="status">
+          Activo
+         </span>
+        </div>
+        <div class="panel-row">
+         <div class="person">
+          <div class="avatar">
+           CR
+          </div>
+          <div>
+           <div class="person-name">
+            Camila Ruiz
+           </div>
+           <div class="person-role">
+            Recepcionista
+           </div>
+          </div>
+         </div>
+         <span class="status">
+          Activo
+         </span>
+        </div>
+        <div class="panel-row">
+         <div class="person">
+          <div class="avatar">
+           DP
+          </div>
+          <div>
+           <div class="person-name">
+            Daniel P&eacute;rez
+           </div>
+           <div class="person-role">
+            Administrador
+           </div>
+          </div>
+         </div>
+         <span class="status">
+          Activo
+         </span>
+        </div>
+       </div>
+       <p class="ayuda">
+        Listado de demostraci&oacute;n. Se conectar&aacute; con la base de datos al integrar usuarios.
+       </p>
+      </section>
+     </div>
+     <section class="bloque">
+      <h2>
+       &Uacute;ltimas operaciones registradas
+      </h2>
+      <p class="descripcion">
+       Movimientos recientes realizados en el sistema.
+      </p>
+      <div class="tabla-contenedor">
+       <table>
+        <thead>
+         <tr>
+          <th>
+           Operaci&oacute;n
+          </th>
+          <th>
+           Usuario
+          </th>
+          <th>
+           Fecha
+          </th>
+          <th>
+           Estado
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           Registro de producto: Cuaderno
+          </td>
+          <td>
+           Ana Mart&iacute;nez
+          </td>
+          <td>
+           Hoy, 10:32 a. m.
+          </td>
+          <td>
+           Completada
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Actualizaci&oacute;n de inventario
+          </td>
+          <td>
+           Juan L&oacute;pez
+          </td>
+          <td>
+           Hoy, 09:48 a. m.
+          </td>
+          <td>
+           Completada
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Creaci&oacute;n de solicitud de impresi&oacute;n
+          </td>
+          <td>
+           Camila Ruiz
+          </td>
+          <td>
+           Ayer, 04:15 p. m.
+          </td>
+          <td>
+           Pendiente
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Actualizaci&oacute;n de datos de usuario
+          </td>
+          <td>
+           Ana Mart&iacute;nez
+          </td>
+          <td>
+           Ayer, 02:20 p. m.
+          </td>
+          <td>
+           Completada
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </div>
+      <p class="ayuda">
+       Estas operaciones son ejemplos visuales; el historial real se mostrar&aacute; al conectarlo con la base de datos.
+      </p>
+     </section>
+    </main>
+    <footer class="pie">
+     Kraft &amp; Co &middot; Panel de administraci&oacute;n
+    </footer>
+   </div>
+  </div>
+ </body>
+</html>
